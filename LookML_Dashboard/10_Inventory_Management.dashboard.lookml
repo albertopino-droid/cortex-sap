@@ -15,6 +15,7 @@
     filters:
       inventory_by_plant.week_end_date: today
     sorts: [inventory_by_plant.sum_inventory_value_target_currency desc 0]
+sorts: [inventory_by_plant.sum_inventory_value_target_currency desc 1]
     limit: 500
     column_limit: 50
     value_labels: legend
